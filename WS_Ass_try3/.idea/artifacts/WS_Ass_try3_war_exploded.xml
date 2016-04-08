@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WS_Ass_try3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WS_Ass_try3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WS_Ass_try3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WS_Ass_try3" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
