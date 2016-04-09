@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "AccountServiceService", targetNamespace = "http://service/", wsdlLocation = "http://XRC_7331_LT:8080/WS_Ass_try3_war_exploded/AccountServiceService?wsdl")
+@WebServiceClient(name = "AccountServiceService", targetNamespace = "http://service/", wsdlLocation = "http://localhost:8080/WS_Ass_try3_war_exploded/AccountServiceService?wsdl")
 public class AccountServiceService
     extends Service
 {
@@ -30,7 +30,7 @@ public class AccountServiceService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://XRC_7331_LT:8080/WS_Ass_try3_war_exploded/AccountServiceService?wsdl");
+            url = new URL("http://localhost:8080/WS_Ass_try3_war_exploded/AccountServiceService?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
