@@ -14,4 +14,24 @@
         <url-pattern>/restService/*</url-pattern>
     </servlet-mapping>
 
+    <context-param>
+        <param-name>exists</param-name>
+        <param-value>model.exceptions.AccountDoesNotExistsExceptionHandler</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>model.exceptions.AccountNameExistsExceptionHandler</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>verification</param-name>
+        <param-value>model.exceptions.AccountVerificationExceptionHandler</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>param</param-name>
+        <param-value>model.exceptions.InvalidAccountParameterExceptionHandler</param-value>
+    </context-param>
+
 </web-app>

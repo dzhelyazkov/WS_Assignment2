@@ -10,6 +10,7 @@ import soap_client.Account;
 public class RestTestRegister{
     private Account account;
 
+    @Test
     public void testRegister() throws Exception{
         account = new Account();
         account.setId(1);
@@ -41,7 +42,6 @@ public class RestTestRegister{
         System.out.println(account.toString());
     }
 
-    @Test
     public void testNormalFlow() throws Exception{
         testRegister();
         testLogin();
