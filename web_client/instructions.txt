@@ -1,0 +1,2 @@
+copy all files from this folder to home_glassfish\glassfish\domains\domain1\docroot
+you can start client on localhost:8080 (after you start Galssfish)
