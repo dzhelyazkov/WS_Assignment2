@@ -1,0 +1,70 @@
+#main
+{
+	width:100%;
+	height:100%;
+}
+
+body
+{
+	background: lavender;
+}
+
+#form_area
+{
+	margin-top:10%;
+	padding-top: 1%;
+	margin-left:25%;
+	width:50%;
+	height:47%;
+	background: white;
+	border-radius: 15pt;
+}
+
+.input_field, .button
+{
+	border-radius: 10pt;
+	margin-top:5%;
+}
+
+.input_field
+{
+	margin-left:20%;
+	width:60%;
+	height:12%;
+	background: #F0F8FF;
+}
+
+#method_pane
+{
+	width:100%;
+	text-align: center;
+}
+
+.button
+{
+	height:15%;
+	width:25%;
+	font-style:italic;
+	color:#FBF6D9;
+	font-size:24px;
+	background: #6960EC;
+	display: inline-block;
+}
+
+#fileds_container{}
+
+#button_container, #register_link, #text_container
+{
+	width:100%;
+	text-align: center;
+}
+
+#text_container{
+	margin-top:2%;
+	font-size:30px;
+	font-style:italic;
+}
+
+#second_button{
+	display:none;
+}

@@ -15,6 +15,6 @@ public class AccountDoesNotExistsExceptionHandler implements ExceptionMapper<Acc
 
     @Override
     public Response toResponse(AccountDoesNotExistException e) {
-        return Response.status(ClientResponse.Status.BAD_REQUEST).entity(new ErrorMessage(e.getMessage())).type(MediaType.APPLICATION_JSON).build();
+        return Response.status(ClientResponse.Status.BAD_REQUEST).entity(new ErrorMessage("Account does not exists")).type(MediaType.APPLICATION_JSON).build();
     }
 }

@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="jquery-1.12.3.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id ="main">
+			<div id="form_area">
+				<div id="method_pane">
+					<input type="radio" name="method" id="radio_method" value="soap" checked>SOAP
+					<input type="radio" name="method" id="radio_method" value="rest">REST
+				</div>
+				<div id="text_container"></div>
+				<div id = "basic_form">
+					<div id = "fileds_container">
+						<input type="text" placeholder="Username" name="login" id="login_field" class="input_field">
+						<input type="password" placeholder="Password" name="password" id="pass_field" class="input_field">
+					</div>
+					<div id="button_container">
+						<input type="button" value="Login" class="button" id="first_button" onclick = "processAction(1)">
+						<input type="button" value="Delete" class="button" id="second_button" onclick = "processAction(2)">
+					</div>
+					<div id="register_link">
+						<a href="#" id="reg_link">Register now!</a>
+					</div>
+				</div>
+			</div>
+			<!--<br>
+			<div id = "delete_edit_form">
+				<input type="text" placeholder="Login" name="login" class="input_field"><br>
+				<input type="password" placeholder="Password" name="pass" class="input_field"><br>
+				<input type="button" value="edit" id="button">
+				<input type="button" value="edit" id="button">
+			</div>
+			<br>
+			<div id = "login_form">
+				<input type="text" placeholder="Login" name="login" class="input_field"><br>
+				<input type="password" placeholder="Password" name="pass" class="input_field"><br>
+				<input type="button" value="login" id="button">
+			</div>-->
+		</div>
+	</body>
+</html>

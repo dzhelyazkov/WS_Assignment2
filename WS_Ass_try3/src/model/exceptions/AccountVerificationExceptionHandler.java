@@ -14,6 +14,6 @@ import javax.ws.rs.ext.Provider;
 public class AccountVerificationExceptionHandler implements ExceptionMapper<AccountVerificationException> {
     @Override
     public Response toResponse(AccountVerificationException e) {
-        return Response.status(ClientResponse.Status.BAD_REQUEST).entity(new ErrorMessage(e.getMessage())).type(MediaType.APPLICATION_JSON).build();
+        return Response.status(ClientResponse.Status.BAD_REQUEST).entity(new ErrorMessage("Verification problems")).type(MediaType.APPLICATION_JSON).build();
     }
 }

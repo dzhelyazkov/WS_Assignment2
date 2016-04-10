@@ -14,6 +14,6 @@ import javax.ws.rs.ext.Provider;
 public class AccountNameExistsExceptionHandler implements ExceptionMapper<AccountNameExistsException> {
     @Override
     public Response toResponse(AccountNameExistsException e) {
-        return Response.status(ClientResponse.Status.BAD_REQUEST).entity(new ErrorMessage(e.getMessage())).type(MediaType.APPLICATION_JSON).build();
+        return Response.status(ClientResponse.Status.BAD_REQUEST).entity(new ErrorMessage("Account name exists")).type(MediaType.APPLICATION_JSON).build();
     }
 }
