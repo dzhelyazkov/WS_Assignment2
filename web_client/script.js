@@ -230,7 +230,7 @@ function parseResponseError(msg){
 			alert("This username is taken");
 		break;
 		case "model.exceptions.AccountVerificationException":
-			alert("Wrong username or password format");
+			alert("Wrong username or password");
 		break;
 		case "model.exceptions.InvalidAccountParameterException":
 			alert("Wrong account parameter");
